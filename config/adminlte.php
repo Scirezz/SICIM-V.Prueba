@@ -314,7 +314,7 @@ return [
         [
             'text'        => 'Inicio',
             'url'         => 'home',
-            'icon'        => 'far fa-fw fa-file',
+            'icon'        => 'fas fa-desktop',
             'label_color' => 'success',
         ],
         ['header' => 'Área de gestión'],
@@ -343,13 +343,23 @@ return [
             'icon' => '	fas fa-archive',
             'submenu' => [
                 [
-                    'text' => 'Registrar Usuario',
-                    'icon' => 'fas fa-fw fa-user',
+                    'text' => 'Registrar objeto',
+                    'icon' => 'fas fa-edit',
                     'url'  => '#',
                 ],
                 [
-                    'text' => 'Lista de usuarios',
-                    'icon' => 'far fa-address-card',
+                    'text' => 'Lista de objetos',
+                    'icon' => 'far fa-clone',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Registrar categorías',
+                    'icon' => 'far fa-edit',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Lista de categorías',
+                    'icon' => '	fas fa-layer-group',
                     'url'  => '#',
                 ],
             ],
@@ -357,16 +367,16 @@ return [
         [
             'text' => 'Respaldos',
             'url'  => 'admin/settings',
-            'icon' => 'fab fa-dropbox',
+            'icon' => '	fas fa-database',
             'submenu' => [
                 [
-                    'text' => 'Registrar Usuario',
-                    'icon' => 'fas fa-fw fa-user',
+                    'text' => 'Respaldar',
+                    'icon' => '	fas fa-upload',
                     'url'  => '#',
                 ],
                 [
-                    'text' => 'Lista de usuarios',
-                    'icon' => 'far fa-address-card',
+                    'text' => 'Restaurar',
+                    'icon' => 'fas fa-download',
                     'url'  => '#',
                 ],
             ],
@@ -377,13 +387,8 @@ return [
             'icon' => 'fas fa-chart-bar',
             'submenu' => [
                 [
-                    'text' => 'Registrar Usuario',
-                    'icon' => 'fas fa-fw fa-user',
-                    'url'  => '#',
-                ],
-                [
-                    'text' => 'Lista de usuarios',
-                    'icon' => 'far fa-address-card',
+                    'text' => 'Lista de reportes',
+                    'icon' => '	far fa-file-alt',
                     'url'  => '#',
                 ],
             ],
@@ -395,13 +400,13 @@ return [
             'icon' => 'fas fa-globe',
             'submenu' => [
                 [
-                    'text' => 'Registrar Usuario',
+                    'text' => 'Gestión de cuenta',
                     'icon' => 'fas fa-fw fa-user',
                     'url'  => '#',
                 ],
                 [
-                    'text' => 'Lista de usuarios',
-                    'icon' => 'far fa-address-card',
+                    'text' => 'Gestión de SICIM',
+                    'icon' => '	fas fa-wrench',
                     'url'  => '#',
                 ],
             ],

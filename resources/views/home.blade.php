@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'AdminLTE')
+@section('title', 'Home | SICIM')
 
 @section('content_header')
     <h1 class="m-0 text-dark">Inicio</h1>
@@ -14,7 +14,12 @@
                     <p class="mb-0">Estás logeado en SICIM! ahora disfruta de la experiencia usuario {{ auth()->user()->name }}</p>
                 </div>
             </div>
+            <x-adminlte-card title="Bienvenido a SICIM" theme="info" icon="fas fa-lg fa-bell" collapsible>
+                    En SICIM podras gestionar tareas administrativas del CDI de Coloncito
+            </x-adminlte-card>
         </div>
+
+
          <div class="col-12">
             <h5>Alerts</h5>
             <x-adminlte-alert theme="light" title="Tip">
