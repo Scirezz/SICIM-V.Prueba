@@ -320,18 +320,18 @@ return [
         ['header' => 'Área de gestión'],
         [
             'text' => 'Usuarios',
-            'url'  => 'admin/settings',
+            'url'  => '#',
             'icon' => 'fas fa-fw fa-users',
             'submenu' => [
                 [
                     'text' => 'Registrar Usuario',
                     'icon' => 'fas fa-fw fa-user',
-                    'url'  => '#',
+                    'url'  => '/admin/usuarios/registrousu',
                 ],
                 [
                     'text' => 'Lista de usuarios',
                     'icon' => 'far fa-address-card',
-                    'url'  => '#',
+                    'url'  => '/admin/usuarios/listausu',
                 ],
 
             ],
@@ -339,75 +339,75 @@ return [
         ],
         [
             'text' => 'Inventario',
-            'url'  => 'admin/settings',
+            'url'  => '#',
             'icon' => '	fas fa-archive',
             'submenu' => [
                 [
                     'text' => 'Registrar objeto',
                     'icon' => 'fas fa-edit',
-                    'url'  => '#',
+                    'url'  => '/admin/inventario/registroinv',
                 ],
                 [
                     'text' => 'Lista de objetos',
                     'icon' => 'far fa-clone',
-                    'url'  => '#',
+                    'url'  => '/admin/inventario/listainv',
                 ],
                 [
                     'text' => 'Registrar categorías',
-                    'icon' => 'far fa-edit',
-                    'url'  => '#',
+                    'icon' => 'fas fa-edit',
+                    'url'  => '/admin/inventario/registrocat',
                 ],
                 [
                     'text' => 'Lista de categorías',
                     'icon' => '	fas fa-layer-group',
-                    'url'  => '#',
+                    'url'  => '/admin/inventario/listacat',
                 ],
             ],
         ],
         [
             'text' => 'Respaldos',
-            'url'  => 'admin/settings',
+            'url'  => '#',
             'icon' => '	fas fa-database',
             'submenu' => [
                 [
                     'text' => 'Respaldar',
                     'icon' => '	fas fa-upload',
-                    'url'  => '#',
+                    'url'  => '/admin/respaldos/respaldo',
                 ],
                 [
                     'text' => 'Restaurar',
                     'icon' => 'fas fa-download',
-                    'url'  => '#',
+                    'url'  => '/admin/respaldos/restauracion',
                 ],
             ],
         ],
         [
             'text' => 'Reportes',
-            'url'  => 'admin/settings',
+            'url'  => '#',
             'icon' => 'fas fa-chart-bar',
             'submenu' => [
                 [
                     'text' => 'Lista de reportes',
                     'icon' => '	far fa-file-alt',
-                    'url'  => '#',
+                    'url'  => '/admin/reportes/listarepo',
                 ],
             ],
 
         ],
         [
             'text' => 'Sistema',
-            'url'  => 'admin/settings',
+            'url'  => '#',
             'icon' => 'fas fa-globe',
             'submenu' => [
                 [
                     'text' => 'Gestión de cuenta',
                     'icon' => 'fas fa-fw fa-user',
-                    'url'  => '#',
+                    'url'  => '/admin/sistema/gestioncuenta',
                 ],
                 [
                     'text' => 'Gestión de SICIM',
                     'icon' => '	fas fa-wrench',
-                    'url'  => '#',
+                    'url'  => '/admin/sistema/gestionsicim',
                 ],
             ],
         ],
