@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Registro Inventario | SICIM')
+@section('title', 'Registro Inventario')
 
 @section('content_header')
     <h1 class="m-0 text-dark">Registro Inventario</h1>

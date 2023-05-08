@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Respaldo | SICIM')
+@section('title', 'Respaldo')
 
 @section('content_header')
     <h1 class="m-0 text-dark">Respaldo</h1>

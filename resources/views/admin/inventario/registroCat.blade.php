@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Registro Categoría | SICIM')
+@section('title', 'Registro Categoría')
 
 @section('content_header')
     <h1 class="m-0 text-dark">Registro Categoría</h1>

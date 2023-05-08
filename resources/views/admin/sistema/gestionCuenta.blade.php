@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Gestión cuenta | SICIM')
+@section('title', 'Gestión cuenta')
 
 @section('content_header')
     <h1 class="m-0 text-dark">Gestión cuenta</h1>

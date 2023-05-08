@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Reportes | SICIM')
+@section('title', 'Reportes')
 
 @section('content_header')
     <h1 class="m-0 text-dark">Reportes</h1>
