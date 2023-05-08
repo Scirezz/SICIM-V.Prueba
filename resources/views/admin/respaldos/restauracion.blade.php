@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Restauración | SICIM')
+@section('title', 'Restauración')
 
 @section('content_header')
     <h1 class="m-0 text-dark">Restauración</h1>

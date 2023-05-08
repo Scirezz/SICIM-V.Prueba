@@ -20,6 +20,8 @@
         </div>
 
 
+        {{-- INICIO AREA DE ALERTS DE EJEMPLO
+
          <div class="col-12">
             <h5>Alerts</h5>
             <x-adminlte-alert theme="light" title="Tip">
@@ -39,7 +41,10 @@
             </x-adminlte-alert>
         </div>
 
+           FIN DE AREA DE ALERTS --}}
 
+
+    {{-- INICIO AREA DE CARDS DE EJEMPLOS
     <div class="col-12">
         <h5>Cards</h5>
         <x-adminlte-card title="Dark Card" theme="dark" icon="fas fa-lg fa-moon">
@@ -62,6 +67,20 @@
         </x-adminlte-card>
     </div>
 
+        FIN AREA DE CARDS DE EJEMPLO        --}}
 
     </div>
 @stop
+
+{{-- AREA SCRIPT ALERTA DE EJEMPLO HECHO CON SWEETALERT2
+@section('js')
+    <script>
+        Swal.fire(
+            'Buen Trabajo, todo funciona bien!',
+            'Presiona el botón!',
+            'success'
+            )
+    </script>
+@stop
+
+--}}
